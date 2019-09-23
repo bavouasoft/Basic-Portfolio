@@ -1,0 +1,149 @@
+#main_div {
+	background-color: lightgray; 
+	width:100% ; 
+	height: 100% 
+	margin: 0px;
+	padding :1px;
+	
+	text-decoration:none;
+	font-family:    Georgia, Times, Times New Roman, serif;
+	font-size:      17px;
+	
+
+
+}
+#header_div {
+	background-color:white; 
+	width:auto ; 
+	height: 75px;
+	 
+	padding:0;
+	
+	margin:0;
+	text-decoration:none;
+        color: gray;
+        color: #333;
+	font-family:    "Arial", "Helvetica Neue", Helvetica, sans-serif; 
+	font-size:      25px;
+
+}
+
+ 
+
+#content_area_div{
+	background-color:#dddddd; 
+	width:100% ; 
+	height:84%;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items:center
+}
+#footer_div{
+	background-color:#666666 ; 
+	width:100% ; 
+	height: 30px;
+
+
+	border-width: 4px;
+	border-style: solid;
+	border-color: #4aaaa5;
+
+
+	display: flex;
+
+	justify-content:center;
+	align-items:center;
+
+	padding:0;
+
+	color:  lightgray;
+	border-width: 5px 0px 0px 0px;
+
+	align-self:flex-end
+	
+}
+#sub_header_div{
+	background-color:white; 
+	width:960px ; 
+	height: 100%;
+	margin: 0 auto;
+	vertical-align:bottom;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	 align-items:flex-end;
+ 
+}
+
+#title_div{
+	background-color:#4aaaa5; 
+	width:250px ; 
+	height: 99%;
+	margin: 0;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+
+	
+	color:  white;
+	 
+	font-family:     Arial , "Helvetica Neue", Helvetica, sans-serif; 
+	font-size:      30px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+
+
+#menubar_div{
+	background-color:white; 
+	width:270px ; 
+	height: 80%;
+	margin: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	align-items:center;
+	
+	text-decoration:none;
+	 
+	color: #333;
+	font-family:    "Arial", "Helvetica Neue", Helvetica, sans-serif; 
+	font-size:      20px;
+
+
+}
+
+#menubar_div > div{
+	color: gray;
+}
+#menubar_div > div a  {
+   color: gray;
+   text-decoration:none;
+}
+   
+#content_div{
+	background-color:white; 
+	width:960px ; 
+	height: 80%;
+	
+	  border-width: 1px;
+	  border-style: solid;
+  border-color: #cccccc;
+  
+   
+
+}
+
+
+
+//kjqhdszkfpdg
+/*sdsdsqds*/
+//https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
